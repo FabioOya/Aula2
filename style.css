@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a :hover{
+    color: aquamarine;
+}
+
+.banner{
+    height: 400px;
+    background-image: url("img/fogo-mais-voce.jpg");
+    background-size: cover;
+}
+
+.banner h1, h4{
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 30pt;
+    margin: 0;
+    padding: 40px;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    background-color: goldenrod;  
+}
+.cadastro div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input{
+    border-radius: 10px;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+
+.botao{
+    background-color: aquamarine;
+    color: black;
+}
+
+.botao:hover{
+    background-color: #f542d7;
+    color: azure;
+    font-size: 30px;
+}
+
+::placeholder{
+    color: blue;
+    font-size: 10pt;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: 
+    text-decoration: none;
+}
+footer div{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div img{
+    display:flex;
+    justify-content: space-around;
+    width: 32px;
+    height 32px;
+}
